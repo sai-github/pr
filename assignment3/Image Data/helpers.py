@@ -251,6 +251,7 @@ def pipeline(X, K=10, error = 0.1):
 
     count_itr = 0
     while abs(sum(np.log(s2)) - sum(np.log(s1)))> error :
+        print(abs(sum(np.log(s2)) - sum(np.log(s1))))
         s1 = g1.predict_scores(X)
         g2 = em_repeat_times(g1, X, times = 1)
         s2 = g2.predict_scores(X)
