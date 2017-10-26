@@ -1,0 +1,3 @@
+The sounds file contains the utterances of 12 french words by different different person.
+The code first extract the mfcc feature of each sound.
+Then it do the Dynamic Time Warping and identify the class of the test word.
