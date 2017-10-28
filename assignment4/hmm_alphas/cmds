@@ -1,0 +1,3 @@
+./train_hmm d1_labels.out 1234 4 4 0.01
+./test_hmm d1_labels.out d1_labels.out.hmm 
+
