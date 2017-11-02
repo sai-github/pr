@@ -26,6 +26,10 @@ def main(org_class):
 	with open('hmm_alphas/acc.log', 'a') as f:
 		f.write('Acc  (class): '+ str(org_class) + ' ' +str(['%.2f' % (i/c1.shape[0]) for i in [c_1, c_2, c_3]][org_class-1])+'\n') #0,1,2
 
+	with open('hmm_alphas/scores_pred_org', 'a') as f:
+		for i in range(c1.shape[0]):
+			f.write('%.6f' %c1[i]+ ' ' +'%.6f' %c2[i]+ ' ' +'%.6f' %c3[i] + ' ' +'%d' %scores_class[i][1] + ' ' + str(org_class) + '\n')
+
 	np.savetxt("hmm_alphas/scores_class", scores_class)
 
 if __name__ == '__main__':

@@ -1,5 +1,3 @@
-python "chmms/modifiy.py"
-
 files=$( ls chmms/chmms_m/*.hmm )
 counter=0
 for i in $files

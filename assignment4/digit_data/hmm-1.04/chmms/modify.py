@@ -18,14 +18,14 @@ for file in file_lines:
     file_count+=1
     nb_state = int(file[0].strip().split(' ')[1])//3
 
-    for i in range(1,4):
+    for i in range(1,3):
         state_end_index = 2+3*nb_state*i-1
         l_temp = file[state_end_index-1].strip().split(' ') #19
-        l_temp[0] = '%.6f' %0.5
+        l_temp[0] = '%.6f' %0.8
         file[state_end_index-1] = ''.join(l_temp)+' \n'
 
         r_temp = file[state_end_index].strip().split(' ') #20
-        r_temp[0] = '%.6f' %0.5
+        r_temp[0] = '%.6f' %0.2
         file[state_end_index] = ''.join(r_temp)+' \n'
 
     line_val = 0

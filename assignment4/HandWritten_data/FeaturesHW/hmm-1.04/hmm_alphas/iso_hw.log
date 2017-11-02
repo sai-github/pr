@@ -1,0 +1,39 @@
+Acc  (class): 1 1.00
+Acc  (class): 2 1.00
+Acc  (class): 3 0.97
+Symbols: 16 State: 6
+---
+Acc  (class): 1 1.00
+Acc  (class): 2 1.00
+Acc  (class): 3 0.97
+Symbols: 16 State: 4
+---
+Acc  (class): 1 1.00
+Acc  (class): 2 0.57
+Acc  (class): 3 0.97
+Symbols: 16 State: 2
+---
+Acc  (class): 1 1.00
+Acc  (class): 2 0.97
+Acc  (class): 3 0.90
+Symbols: 10 State: 2
+---
+Acc  (class): 1 0.97
+Acc  (class): 2 0.97
+Acc  (class): 3 0.90
+Symbols: 10 State: 4
+---
+Acc  (class): 1 1.00
+Acc  (class): 2 0.97
+Acc  (class): 3 0.93
+Symbols: 10 State: 6
+---
+Acc  (class): 1 1.00
+Acc  (class): 2 0.97
+Acc  (class): 3 0.90
+Symbols: 6 State: 6
+Acc  (class): 1 1.00
+Acc  (class): 2 0.97
+Acc  (class): 3 0.97
+Symbols: 6 State: 4
+---

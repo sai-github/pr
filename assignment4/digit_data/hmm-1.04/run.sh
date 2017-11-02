@@ -1,7 +1,7 @@
 make clean
 make all
 
-symbol=16
+symbol=30
 state=6
 ./train_hmm d1.out 1234 $state $symbol 0.01
 ./train_hmm d2.out 1234 $state $symbol 0.01
@@ -21,3 +21,6 @@ do
   count=$((count+1))
   python "hmm_alphas/pred.py" $count
 done
+
+echo "Symbols: "$symbol" ""State: "$state>>"hmm_alphas/acc.log"
+echo '---'>>"hmm_alphas/acc.log"
