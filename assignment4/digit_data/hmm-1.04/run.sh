@@ -1,8 +1,8 @@
 make clean
 make all
 
-symbol=30
-state=6
+symbol=6
+state=4
 ./train_hmm d1.out 1234 $state $symbol 0.01
 ./train_hmm d2.out 1234 $state $symbol 0.01
 ./train_hmm d3.out 1234 $state $symbol 0.01
